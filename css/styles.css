@@ -5,17 +5,17 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: rgb(69, 69, 69);
+    background: #000;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgb(31, 31, 31);
+    background: #000;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(13, 13, 13);
+    background: #000;
   }
 
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
