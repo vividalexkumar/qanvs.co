@@ -1,3 +1,55 @@
+/*magnifying glass*/
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 1px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
+/*custom buttons*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.bn3637 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.31rem 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 369;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(169, 169, 169);
+    backface-visibility: hidden;
+    border: 0.31rem solid transparent;
+    border-radius: 1.69rem;
+  }
+  .bn38 {
+    border-color: transparent;
+    transition: background-color 0.3169s ease-in-out;
+  }
+
+  .actively {
+    background-color: #222222;
+    color: rgb(255, 255, 255);
+  }
+    
+  .bn38:hover {
+    background-color: #292929;
+  }
+
+/*custom scrollbar*/
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -217,7 +269,7 @@ a {
   animation: ani 0.7s steps(70) forwards;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+@import url(future-webfont.ttf);
 .loading {
   position: fixed;
   top: 0;
@@ -226,6 +278,7 @@ a {
   height: 100%;
   background: #000;
   z-index: 9999;
+  font-family: outrun_futureregular;
 }
 
 .loading-text {
@@ -244,7 +297,7 @@ a {
   display: inline-block;
   margin: 0 5px;
   color: #fff;
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: outrun_futureregular;
 }
 .loading-text span:nth-child(1) {
   -webkit-filter: blur(0px);
@@ -343,6 +396,20 @@ Author URL: https://themeforest.net/user/codesymbol/
     /* ---------------------- */
     /* Global                 */
     /* ---------------------- */
+
+        @font-face {
+            font-family: 'outrun_futureregular';
+            src: url('future-webfont.eot');
+            src: url('future-webfont.eot?#iefix') format('embedded-opentype'),
+                 url('future-webfont.woff2') format('woff2'),
+                 url('future-webfont.woff') format('woff'),
+                 url('future-webfont.ttf') format('truetype'),
+                 url('future-webfont.svg#outrun_futureregular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+    
+        }
+
         @font-face {
             font-family: 'effra';
             src: url('../includes/font/effra-regular.eot');

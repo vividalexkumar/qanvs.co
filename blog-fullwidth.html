@@ -37,10 +37,15 @@
 
 
     <!-- Begin Loader -->
-    <div class="preloader">
-        <p>LOADING</p>
-        <span class="circle"></span>
-    </div>
+    <div class="loading">
+		<div class="loading-text">
+			<span class="loading-text-words">Q</span>
+			<span class="loading-text-words">A</span>
+			<span class="loading-text-words">N</span>
+			<span class="loading-text-words">V</span>
+			<span class="loading-text-words">S</span>
+		</div>
+	</div>
     <!-- End Loader -->
 
     <!-- Begin Header -->
@@ -349,6 +354,11 @@
     </footer>
     <!-- End Footer -->
 
+    <script>
+        $(window).on("load",function(){
+            $(".loading").fadeOut("slow");
+        });
+    </script>
 
     <!-- Begin JavaScript -->
     <script src="js/jquery.js"></script>
