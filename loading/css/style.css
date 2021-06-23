@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+@import url(https://vividalexkumar.github.io/qanvs.co/future-webfont.woff);
 .loading {
   position: fixed;
   top: 0;
@@ -25,7 +25,7 @@
   display: inline-block;
   margin: 0 5px;
   color: #fff;
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: 'Quattrocento Sans', outrun-futureregular;
 }
 .loading-text span:nth-child(1) {
   -webkit-filter: blur(0px);

@@ -40,12 +40,12 @@
   }
 
   .actively {
-    background-color: #222222;
+    background-color: #242424;
     color: rgb(255, 255, 255);
   }
     
   .bn38:hover {
-    background-color: #292929;
+    background-color: #313131;
   }
 
 /*custom scrollbar*/
@@ -278,7 +278,7 @@ a {
   height: 100%;
   background: #000;
   z-index: 9999;
-  font-family: outrun_futureregular;
+  font-family: sans-serif;
 }
 
 .loading-text {
@@ -297,7 +297,7 @@ a {
   display: inline-block;
   margin: 0 5px;
   color: #fff;
-  font-family: outrun_futureregular;
+  font-family: sans-serif;
 }
 .loading-text span:nth-child(1) {
   -webkit-filter: blur(0px);
