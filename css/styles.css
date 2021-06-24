@@ -40,12 +40,12 @@
   }
 
   .actively {
-    background-color: #242424;
+    background-color: #202020;
     color: rgb(255, 255, 255);
   }
     
   .bn38:hover {
-    background-color: #313131;
+    background-color: #303030;
   }
 
 /*custom scrollbar*/
