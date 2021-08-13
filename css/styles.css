@@ -527,7 +527,7 @@ Author URL: https://themeforest.net/user/codesymbol/
 
             }
             main img {
-                max-width: 100%;
+                max-width: 80%;
                 height: auto;
             }
             main dl {
@@ -1841,7 +1841,8 @@ Author URL: https://themeforest.net/user/codesymbol/
             height: 100%;
         }
         .portfolio.horizontal-slider article figure img {
-            display: block;
+            display: inline-block;
+		justify-content: center;
             width: auto;
             height: 100%;
         }
@@ -3962,11 +3963,11 @@ Author URL: https://themeforest.net/user/codesymbol/
             }
             body.fullscreen main,
             html.fullscreen main {
-		    margin-top: 15vh;
+		    margin-top: 10vh;
 		    body:calc(80vh - 80px);
                	height: calc(100vh - 100px);
-		    max-width: 400px;
-		    
+		  
+		   
             }
             .hide-on-mobile {
                 display: none!important;
