@@ -3964,7 +3964,9 @@ Author URL: https://themeforest.net/user/codesymbol/
             html.fullscreen main {
 		    margin-top: 15vh;
 		    body:calc(80vh - 80px);
-                height: calc(100vh - 100px);
+               	height: calc(100vh - 100px);
+		    max-width: 400px;
+		    
             }
             .hide-on-mobile {
                 display: none!important;
