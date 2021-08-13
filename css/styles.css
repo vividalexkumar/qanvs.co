@@ -3951,7 +3951,7 @@ Author URL: https://themeforest.net/user/codesymbol/
     /* ---------------------- */
     /* Small Screens (Mobile) */
     /* ---------------------- */
-    @media only screen and (max-width : 768px) {
+    @media only screen and (max-width : 460px) {
 
 
         /* ----------------------   */
@@ -3962,6 +3962,8 @@ Author URL: https://themeforest.net/user/codesymbol/
             }
             body.fullscreen main,
             html.fullscreen main {
+		    margin-top: 15vh;
+		    body:calc(80vh - 80px);
                 height: calc(100vh - 100px);
             }
             .hide-on-mobile {
