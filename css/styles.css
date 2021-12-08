@@ -527,7 +527,7 @@ Author URL: https://themeforest.net/user/codesymbol/
 
             }
             main img {
-                max-width: 80%;
+                max-width: 100%;
                 height: auto;
             }
             main dl {
@@ -849,7 +849,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             max-height: 100px;
         }
         header .logo img {
-            max-height: 31px;
+            max-height: 50px;
             width: auto;
         }
         header.showNav .logo {
@@ -1503,8 +1503,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             .horizontal-slider.centered,
             .horizontal-slider.full {
                 position: relative;
-                padding: 0px 2px 0px 2px;
-		    width: 100%;
+                width: 100%;
                 height: 100%;
                 overflow: hidden;
             }
@@ -1842,8 +1841,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             height: 100%;
         }
         .portfolio.horizontal-slider article figure img {
-            display: inline-block;
-		justify-content: center;
+            display: block;
             width: auto;
             height: 100%;
         }
@@ -3953,7 +3951,7 @@ Author URL: https://themeforest.net/user/codesymbol/
     /* ---------------------- */
     /* Small Screens (Mobile) */
     /* ---------------------- */
-    @media only screen and (max-width : 400px) {
+    @media only screen and (max-width : 768px) {
 
 
         /* ----------------------   */
@@ -3964,11 +3962,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             }
             body.fullscreen main,
             html.fullscreen main {
-		    margin-top: 10vh;
-		    body:calc(80vh - 80px);
-               	height: calc(100vh - 100px);
-		  
-		   
+                height: calc(100vh - 100px);
             }
             .hide-on-mobile {
                 display: none!important;
